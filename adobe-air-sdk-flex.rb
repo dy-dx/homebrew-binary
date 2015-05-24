@@ -20,6 +20,6 @@ class AdobeAirSdkFlex < Formula
   end
 
   test do
-    system "#{bin}/fontswf", "-h"
+    system "#{bin}/adt", "-version"
   end
 end
